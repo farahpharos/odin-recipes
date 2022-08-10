@@ -1,5 +1,54 @@
 /* css  */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
 
 h1 {
     color: red;
 }
+
+
+/*<h1>Odin Recipes</h1>*/
+#title {
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+* {
+    box-sizing: border-box;
+}
+
+.bg-image {
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Images Used */
+.img1 {background-image: url("./images/anime-oka.jpg") ;}
+.img2 {background-image: url("./images/anime-ramen.jpg");}
+.img3 {background-image: url("./images/anime-sushi.jpeg");}
+
+#title {background-image: url("./images/food-god.jpeg");}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    font-size: 60px;
+    border: 10px solid #f1f1f1;
+    position: fixed; /* Stay fixed */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: auto;
+    padding: 20px;
+    text-align: center;
+  }
